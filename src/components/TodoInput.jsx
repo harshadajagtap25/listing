@@ -13,6 +13,7 @@ function TodoInput({ addTodo }) {
         }}
       />
       <button
+      className={styles.button}
         disabled={!value} //button wil be disables if there is no value
         onClick={() => {
           //this will not add empty todo

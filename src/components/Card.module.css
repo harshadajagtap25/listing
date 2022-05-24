@@ -1,0 +1,19 @@
+.card{
+    width:60%;
+    height: 200px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.cardBtn{
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+}
+.text{
+    margin-bottom: -20px;
+    width: 195px;
+    
+}

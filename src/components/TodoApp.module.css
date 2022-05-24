@@ -1,6 +1,5 @@
-button{
+.button{
     border: none;
-    /* border-radius: 10%  ; */
     background-color: white;
 
 }

@@ -10,8 +10,8 @@ function TodoApp() {
     setTodos([...todos, { id: uuidv4(), value: newTodo }]);
   };
 
-  const deleteTodo = (value) => {
-    let newTodos = todos.filter((todo) => todo.value !== value);
+  const deleteTodo = (id) => {
+    let newTodos = todos.filter((todo) => todo.id !== id);
     setTodos(newTodos);
   };
   return (
