@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+  import styles from'./TodoApp.module.css'
 function TodoInput({ addTodo }) {
   const [value, setValue] = useState("");
   return (
@@ -7,7 +7,7 @@ function TodoInput({ addTodo }) {
       <input
         type="text"
         value={value}
-        placeholder="New todo item"
+        placeholder="Write Something"
         onChange={(e) => {
           setValue(e.target.value);
         }}
@@ -25,7 +25,7 @@ function TodoInput({ addTodo }) {
           // }
         }}
       >
-        Add Todo
+        +
       </button>
     </div>
   );

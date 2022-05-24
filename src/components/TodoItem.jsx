@@ -1,11 +1,13 @@
 import React from "react";
+import styles from'./TodoApp.module.css'
 
 function TodoItem({ value, deleteTodo }) {
   return (
-    <div>
-      <li>
+    <div  >
+      <li className={styles.item}>
         {value}
         <button
+        className={styles.deletebtn}
           onClick={() => {
             deleteTodo(value);
 

@@ -1,0 +1,23 @@
+button{
+    border: none;
+    /* border-radius: 10%  ; */
+    background-color: white;
+
+}
+.todolist{
+    border: 1px black solid;
+    background-color: rgb(231, 231, 231);
+    width: 70%;
+    margin: auto;
+
+}
+.item{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+.deletebtn{
+    border: 1px solid gray;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import TodoItem from "./TodoItem";
+import styles from'./TodoApp.module.css'
 
 function TodoList({ todos, deleteTodo }) {
   return (
@@ -7,9 +8,8 @@ function TodoList({ todos, deleteTodo }) {
     //   <h3>Here is your TodoList</h3>
     //   {children}
     // </div>
-    <div>
-      <h3>Here is your TodoList</h3>
-      <ul>
+    <div >
+      <ul  >
         {todos.map((todo) => (
           <TodoItem key={todo.id} value={todo.value} deleteTodo={deleteTodo} />
         ))}
